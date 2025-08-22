@@ -1,0 +1,5 @@
+mut<-read.table("step5.selected_mutation_ID.bed",sep="\t",comment.char="")
+reads_ID<-read.table("step5.mutation_EP_readID.bed",sep="\t",comment.char="")
+result<-merge(mut,reads_ID,by.x="V7",by.y="V4",all.x=T)
+mut_readsID<-cbind(result[,1:7],result[,12])
+write.table(mut_readsID,"step5.selected_mutation_readsID.bed",sep="\t",quote=F,col.names=F,row.names=F)

@@ -22,7 +22,7 @@ awk -vOFS="\t" -F "\t|%" '{print $0,$10}' step5.selected_mutation_readsID.bed > 
 awk -vOFS="\t" -F "\t|%" '{print $0,$6}' PTBP1_merge.promoterReads_link_Enhancer.bed > PTBP1_merge.promoterReads_link_Enhancer_sam_reads_ID.bed
 
 # step6.link variants to disease genes
-bedtools intersect -a PTBP1_merge.promoterReads_link_Enhancer_sam_reads_ID.bed -b overlap.merge_vs_sub.activePT.list -wa -wb >  PTB_merge.promoterReads_link_Enhancer_sam_reads_ID_add_prmt_gene.bed
+bedtools intersect -a PTBP1_merge.promoterReads_link_Enhancer_sam_reads_ID.bed -b overlap.merge_vs_sub.activePT.list -wa -wb >  PTBP1_merge.promoterReads_link_Enhancer_sam_reads_ID_add_prmt_gene.bed
 Rscript step6.link_mutation_to_promoter_gene.R
 
 # step7.find key alternative variants

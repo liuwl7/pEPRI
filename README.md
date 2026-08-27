@@ -16,8 +16,17 @@ This repository contains the analysis code and Cytoscape session files used to g
 	
 	STAR (v2.5.2b) (https://github.com/alexdobin/STAR)
 	bwa (v0.7.17) (https://github.com/lh3/bwa)
+	Trimmomatic ()
+	SAMtools (v1.10) (https://github.com/samtools/samtools)
+	BEDtools (v2.27.1) (https://github.com/arq5x/bedtools2)
 	Cytoscape (v3.8.2) (https://cytoscape.org/)
+
 	
+## **Scripts for pEPRI identification**
+
+
+## **Mapping risk variants onto pEPRIs**
+
 
 ## **Cytoscape session files for pEPRI map, pVTF map and KEGG network**
 

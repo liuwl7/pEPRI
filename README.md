@@ -7,7 +7,7 @@ This repository contains the analysis code and Cytoscape session files used to g
 
 **Analysis Workflow**
 
-<img width="562" height="838" alt="image" src="https://github.com/user-attachments/assets/944df21f-c836-46ff-9eb5-1ff4be63d0dc" />
+<img width="432" height="610" alt="pipeline" src="https://github.com/user-attachments/assets/bb6e1a19-dac0-4450-b581-304cb4d7e0dd" />
 
 **Software**
 	

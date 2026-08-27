@@ -5,7 +5,7 @@ This repository contains the analysis code and Cytoscape session files used to g
 
 	RNA-binding protein-mediated enhancer–promoter RNA interactions link noncoding variants to transcriptional dysregulation.
 
-**Analysis Workflow**
+## **Analysis Workflow**
 
 <img width="432" height="610" alt="pipeline" src="https://github.com/user-attachments/assets/bb6e1a19-dac0-4450-b581-304cb4d7e0dd" />
 

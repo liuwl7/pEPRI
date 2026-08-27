@@ -9,12 +9,18 @@ This repository contains the analysis code and Cytoscape session files used to g
 
 <img width="432" height="610" alt="pipeline" src="https://github.com/user-attachments/assets/bb6e1a19-dac0-4450-b581-304cb4d7e0dd" />
 
-**Software**
+## **Dependencies and Software**
+	
+	Ubuntu 22.04 LTS
+	R (v4.3.1)
 	
 	STAR (v2.5.2b) (https://github.com/alexdobin/STAR)
 	bwa (v0.7.17) (https://github.com/lh3/bwa)
 	Cytoscape (v3.8.2) (https://cytoscape.org/)
 	
+
+## **Cytoscape session files for pEPRI map, pVTF map and KEGG network**
+
 **Abbreviations**
 
 	pEPRI map: protein-mediated enhancer–promoter RNA interaction map

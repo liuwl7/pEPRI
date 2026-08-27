@@ -14,16 +14,23 @@ This repository contains the analysis code and Cytoscape session files used to g
 	Ubuntu 22.04 LTS
 	R (v4.3.1)
 	
+	Trimmomatic (v0.39) (http://www.usadellab.org/cms/?page=trimmomatic)
+	cutadapt (v4.4) (https://cutadapt.readthedocs.io/en/stable)
 	STAR (v2.5.2b) (https://github.com/alexdobin/STAR)
 	bwa (v0.7.17) (https://github.com/lh3/bwa)
-	Trimmomatic ()
 	SAMtools (v1.10) (https://github.com/samtools/samtools)
 	BEDtools (v2.27.1) (https://github.com/arq5x/bedtools2)
+	RICpipe (v1.0) (https://github.com/caochch/RICpipe)
+	CRIC-seq (v1.0) (https://github.com/HuNaijing/CRIC-seq)
 	Cytoscape (v3.8.2) (https://cytoscape.org/)
-
 	
 ## **Scripts for pEPRI identification**
 
+	Remove adapters and PCR duplicates, STAR map to genome and remove background (IgG) for CRIC-seq data 
+	using the RICpipe (https://github.com/caochch/RICpipe) and CRIC-seq (https://github.com/HuNaijing/CRIC-seq) pipelines.
+	After removed background, inter-molecular chimeric reads are mapped to enhancers and promoters using the following scripts:
+
+	
 
 ## **Mapping risk variants onto pEPRIs**
 

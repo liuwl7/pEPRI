@@ -4,6 +4,15 @@ This repository contains the analysis code and processed datasets presented in t
 
 RNA-binding protein-associated enhancer–promoter RNA interactions link noncoding variants to transcriptional dysregulation.
 
+## Table of Contents
+- [Analysis Workflow](#analysis-workflow)
+- [Dependencies, Software, and Pipelines](#dependencies-software-and-pipelines)
+- [1. Reference](#1-reference)
+- [2. Scripts](#2-scripts)
+- [3. Example Input and Output](#3-example-input-output)
+- [4. pEPRI Network](#4-pEPRI-network)
+- [5. Cytoscape Files](#5-cytoscape-files)
+
 ## **Analysis Workflow**
 
 <img width="432" height="610" alt="pipeline" src="https://github.com/user-attachments/assets/bb6e1a19-dac0-4450-b581-304cb4d7e0dd" />

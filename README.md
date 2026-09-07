@@ -9,7 +9,7 @@ RNA-binding protein-associated enhancer–promoter RNA interactions link noncodi
 - [Dependencies, Software, and Pipelines](#dependencies-software-and-pipelines)
 - [1. Reference](#1-reference)
 - [2. Scripts](#2-scripts)
-- [3. Example Input and Output](#3-example-input-output)
+- [3. Example Input and Output](#3-example-input-and-output)
 - [4. pEPRI Network](#4-pEPRI-network)
 - [5. Cytoscape Files](#5-cytoscape-files)
 

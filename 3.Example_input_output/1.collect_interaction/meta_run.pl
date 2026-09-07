@@ -20,7 +20,3 @@ foreach my $sam (@interaction_files){
 	`bedtools intersect -wa -wb -a $promoter_bed -b read_2.bed -F 0.5 > promoter_overlap_with_read2.bed`;
 	`perl collect_enhancer_promoter.pl enhancer_overlap_with_read1.bed enhancer_overlap_with_read2.bed promoter_overlap_with_read1.bed promoter_overlap_with_read2.bed $prefix`;
 }
-
-
-
-

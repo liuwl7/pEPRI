@@ -74,6 +74,7 @@ Furthermore, knockdown RNA-seq data were incorporated to identify variants with 
 ## **3. Example Input and Output**
 
 Briefly, using HNRNPU CRIC-seq as an example, we selected 1/1,000 of the inter-molecular chimeric reads after background removal and mapped them to enhancers and promoters. Subsequently, Monte Carlo simulation was employed to identify high-confidence pEPRIs (raw *P*-value < 0.05 and support read count > 2). The input and output files for each procedure are provided in this folder.
+
 To save storage space and demonstrate the pipeline, this folder provides a representative output from a single thread (out of 20 parallel threads) as an example.
 
 ## **4. pEPRI Network**

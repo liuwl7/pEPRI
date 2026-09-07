@@ -105,5 +105,5 @@ This folder contains the high-confidence pEPRI networks for 52 profiled RBPs inv
 **3. KEGG Cytoscape Files**
 
 	PTBP1_pEPRI_mutation_KEGG_network.cys: 
-		Cytoscape network corresponding to the KEGG pathway analysis of genes affected by mutations within PTBP1-mediated pEPRIs.
+		Cytoscape network corresponding to the KEGG pathway analysis of genes affected by mutations within PTBP1-associated pEPRIs.
 		Large nodes represent enriched KEGG pathway terms, while small nodes represent genes.
